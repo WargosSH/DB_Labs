@@ -9,7 +9,7 @@ CREATE TABLE task2.books (
     publ_house	VARCHAR(256) NOT NULL,
     pages		INT NOT NULL,
     format		VARCHAR(256),
-    book_date	VARCHAR(256),
+    book_date	VARCHAR(256) DEFAULT NULL,
     book_count	INT NOT NULL,
     theme		VARCHAR(256),
     category	VARCHAR(256)
